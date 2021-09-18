@@ -7,7 +7,7 @@ const Card = ({monster}) => {
 
     return (
         <div className="card-container">
-          <img alt="Monster" src={`https://robohash.org/${id}?set=set4&size=180x180`} />
+          <img className="card-img" alt="Monster" src={`https://robohash.org/${id}?set=set4&size=180x180`} />
           <h2>{name}</h2>
         </div>
     );
